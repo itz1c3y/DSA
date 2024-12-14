@@ -61,23 +61,6 @@
             size = 0;
         }
 
-        public static void main(String[] args) {
-            Stack<Integer> stack = new Stack<>();
-
-            // Push elements
-            stack.push(10);
-            stack.push(20);
-            stack.push(30);
-
-            System.out.println("Top element: " + stack.peek()); // Output: 30
-
-            // Pop elements
-            System.out.println("Popped: " + stack.pop()); // Output: 30
-            System.out.println("Popped: " + stack.pop()); // Output: 20
-
-            // Check stack size
-            System.out.println("Size: " + stack.size()); // Output: 1
-        }
     }
 
 
